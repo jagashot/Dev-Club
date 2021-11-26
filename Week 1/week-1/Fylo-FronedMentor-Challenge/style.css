@@ -1,0 +1,107 @@
+ body{
+    background-image: url(assets/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: hsl(229, 57%, 11%);
+    background-size: 100% 50%;
+    background-position: bottom;
+}
+.MainBox{
+    display: flex;
+    margin: auto;
+    margin-top: 17%;
+    width: 50%;
+    color: white;
+    font-size: 10px;
+    font-family: 'Raleway';
+    align-items: flex-end;
+}
+.MainBox div{
+    background-color: hsl(228, 56%, 26%);
+    margin: 10px;
+}
+.LeftBox{
+    border-radius: 5px;
+    border-top-right-radius: 75px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.LeftBox div{
+    width: min-content;
+}
+.Icon{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.SmallImgs{
+    display: flex;
+    flex-direction: row;
+}
+.SmallImgs div{
+    background-color: hsl(229, 57%, 11%);
+    padding: 5px;
+    border-radius: 5px;
+}
+.RightBox{
+   border-radius: 5px;
+    width: 400px;
+   height: 125px;
+   display: flex;
+   padding-top: 10px;
+   position: relative;
+}
+.Box{
+    position: absolute;
+    top: -50px;
+    right: 20px;
+    color: hsl(229, 7%, 55%);
+    display: flex;
+    width: 120px;
+    height: min-content;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.BigLine{
+    width: 325px;
+    height: 15px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.SmallLine{
+    width: 275px;
+    height: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    left: 0;
+}
+.Dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 360px;
+    background-color: white;
+    position: absolute;
+    right: -10px;
+}
+.BotDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow-down {
+    border-top: 18px solid white; 
+    border-left: 15px solid transparent;   
+    z-index:100;
+    position: absolute;
+    right: -10px;
+    bottom: -28px;
+  }
